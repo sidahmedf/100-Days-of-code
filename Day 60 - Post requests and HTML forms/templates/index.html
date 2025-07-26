@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> hello this is a test </h1>
+
+<form action={{url_for("submit")}} method="post">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" placeholder="Enter your first name">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" placeholder="Enter your last name">
+
+  <button type="submit">OK</button>
+</form>
+</body>
+</html>
